@@ -1,6 +1,30 @@
+.body {
+    display: flex;
+    align-items: center;
+}
+
 .header-container {
     width: 100%;
     height: 20vh;
     background-color: blue;
-    position: fixed;
+    
+}
+
+.demo-application {
+    width: 90%;
+    height: 80vh;
+    margin-top: 20px;
+    background-color: lightblue;
+    border-radius: 15px;
+   
+  
+}
+
+.first-container {
+    width: 90%;
+    height: 40vh;
+    margin-top: 20px;
+    background-color: lightblue;
+    border-radius: 15px;
+    
 }
