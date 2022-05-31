@@ -7,18 +7,18 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 
 section {
     min-height: 500px;
+    padding-bottom: 20px;
 }
 
 .container {
     max-width: 600px;
     margin: 0 auto;
-    border: 2px dashed #ff0000;
 }
 
 .back-color {
@@ -48,6 +48,10 @@ a {
     align-items: center;
 }
 
+.header-container .main-menu{
+    display:  none;
+}
+
 /* tablet */
 @media screen and (min-width: 768px){
     .container{
@@ -62,7 +66,24 @@ a {
     .container{
         max-width: 970px; 
     }
+    .header-container .navbar {
+        display: none;
+    }
+    .navbar .main-menu {
+        display: block;
+    }
+
     
+}
+
+
+/* intro */
+
+#intro .card {
+    background-color: lightskyblue;
+    min-height: 400px;
+    margin-bottom: 40px;
+    border-radius: 15px;
 }
 
 
