@@ -15,6 +15,12 @@ section {
     min-height: 500px;
 }
 
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px dashed #ff0000;
+}
+
 .back-color {
     background-color: purple;
 }
@@ -24,8 +30,22 @@ section {
     height: 80px;
     background-color: blue;
     position: fixed;
+    padding: 1rem 2rem;
     top: 0;
     left: 0;
+    color: antiquewhite;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-container .navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* tablet */
