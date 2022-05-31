@@ -58,7 +58,21 @@ a {
         max-width: 740px;
 
     }
+    #intro .deck {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 - 1rem;
+    }
     
+    #intro .card {
+        width: calc(100% / 3 - 2rem);
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    /* #intro .card:first-child {
+        width: calc(100 / 3 * 2 -2rem);
+    } */
 }
 
 /* desktop */
